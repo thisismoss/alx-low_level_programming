@@ -20,10 +20,10 @@ int main(void)
 	/* your code goes there */
 	Digit = n % 10;
 	if (Digit > 5)
-		printf("Last digit of %i | is %i and is greater than 5\n", n, Digit);
+		printf("Last digit of %i is %i and is greater than 5\n", n, Digit);
 	else if (Digit == 0)
-		printf("Last digit of %i | is %i and is 0\n", n, Digit);
+		printf("Last digit of %i is %i and is 0\n", n, Digit);
 	else if (Digit < 6 && Digit != 0)
-		printf("Last digit of %i | is %i and is less than 6 and not 0\n", n, Digit);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, Digit);
 	return (0);
 }

@@ -12,7 +12,7 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		if (ch == 'e' || vh == 'q')
+		if (ch == 'e' || ch == 'q')
 			ch++;
 	putchar(ch);
 	ch++;
