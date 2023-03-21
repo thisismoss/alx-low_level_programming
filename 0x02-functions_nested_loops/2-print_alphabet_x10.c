@@ -1,8 +1,9 @@
 #include "main.h"
 
+
 /**
- *  *  print_alphabet - print all alphabet in lowercase 10 times
- *   **/
+ * print_alphabet - print all alphabet in lowercase 10 times
+ **/
 
 void print_alphabet(void)
 {
